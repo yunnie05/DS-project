@@ -39,6 +39,7 @@ This project uses several libraries and dependencies for data analysis, visualiz
 - streamlid: is an innovative software solution designed to enhance streaming experiences by providing advanced stream management tools and real-time analytics.
 
 
+
 ## Installing Dependencies
 To run this project locally, you need to have Python installed on your machine. You can download and install [Python](https://www.python.org/downloads/) from the official Python website.
 
@@ -75,10 +76,11 @@ If you prefer, you can run the code in [Google Colab](https://colab.google/). Th
 Download the project files and upload them to Google Colab.
 Make sure to add the dataset file hcc_dataset.csv in the same directory as your notebook.
 
-##To run streamlit:
+## Running the streamlit file:
 Install the previously mentioned dependencies, open the terminal and type:
+```bash
 python streamlit_app.py
-
+```
 
 ## Authors
 - [Isabela Cartaxo](https://github.com/belacartaxo)
