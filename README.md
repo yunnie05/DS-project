@@ -36,6 +36,7 @@ This project uses several libraries and dependencies for data analysis, visualiz
   - Evaluation metrics like accuracy_score, classification_report, confusion_matrix, roc_curve, roc_auc_score, precision_score, recall_score, and f1_score.
 ### Other Libraries
 - deepcopy: Used to create deep copies of objects.
+- streamlid: is an innovative software solution designed to enhance streaming experiences by providing advanced stream management tools and real-time analytics.
 
 
 ## Installing Dependencies
@@ -73,6 +74,10 @@ If you prefer, you can run the code in [Google Colab](https://colab.google/). Th
 
 Download the project files and upload them to Google Colab.
 Make sure to add the dataset file hcc_dataset.csv in the same directory as your notebook.
+
+##To run streamlit:
+Install the previously mentioned dependencies, open the terminal and type:
+python streamlit_app.py
 
 
 ## Authors
