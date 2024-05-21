@@ -20,6 +20,7 @@ This project uses several libraries and dependencies for data analysis, visualiz
 - Pandas: Data structures for data manipulation and analysis.
 - Matplotlib: Library for creating static, animated, and interactive plots.
 - Seaborn: Data visualization library based on Matplotlib, providing a high-level interface.
+- SciPy.stats: Library for scientific computing and statistical functions.
 ### Data Preprocessing Libraries
 - Scikit-learn (sklearn): Tools for data modeling and preprocessing.
   - OneHotEncoder and OrdinalEncoder for encoding categorical variables
