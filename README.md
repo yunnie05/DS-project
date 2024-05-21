@@ -1,5 +1,6 @@
 # Data Science Pipeline for Hepatocellular Carcinoma Dataset
 - This project was developed for the EIACD (Elements of Artificial Intelligence and Data Science) course.
+- [Repository link](https://github.com/yunnie05/DS-project)
 
 ## Project Overview
 The second practical assignment involves developing a comprehensive data science pipeline, from exploratory data analysis and preprocessing to applying supervised learning techniques for classification and evaluating their performance. Optionally, the project may also explore additional techniques such as clustering, handling missing or imbalanced data, among others, to improve system performance.
