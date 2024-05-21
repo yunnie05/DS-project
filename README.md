@@ -79,7 +79,7 @@ Make sure to add the dataset file hcc_dataset.csv in the same directory as your 
 ## Running the streamlit file:
 Install the previously mentioned dependencies, open the terminal and type:
 ```bash
-streamlit run app.py
+streamlit run app1.py
 ```
 
 ## Authors
