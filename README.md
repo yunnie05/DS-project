@@ -77,6 +77,11 @@ Download the project files and upload them to Google Colab.
 Make sure to add the dataset file hcc_dataset.csv in the same directory as your notebook.
 
 ## Running the streamlit file:
+Install the streamlit:
+```bash
+pip install streamlit
+```
+
 Install the previously mentioned dependencies, open the terminal and type:
 ```bash
 streamlit run streamlit_app.py
