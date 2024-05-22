@@ -72,7 +72,6 @@ if st.button("Cramer's method values"):
     st.write("- Low Cramer's V values suggest these variables alone may not be strong predictors for the condition. Including them might add noise or reduce the predictive accuracy of models unless combined intelligently with other data.")
 
 
-
 # Mock data loading function if your data is not in a CSV
 def load_data():
     # Mock dataframe setup - replace with your actual data loading method
