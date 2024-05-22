@@ -70,3 +70,47 @@ if st.button("Cramer's method values"):
     st.write('- PS and Encephalopathy are notably higher and could be pivotal in analyses or model development. Their strong association might indicate them as primary factors or symptoms in the condition being studied.')
     st.write("- Variables with moderate to weak associations shouldn't be ignored, as their combined effects or interactions with other variables might be significant.")
     st.write("- Low Cramer's V values suggest these variables alone may not be strong predictors for the condition. Including them might add noise or reduce the predictive accuracy of models unless combined intelligently with other data.")
+
+
+
+# Mock data loading function if your data is not in a CSV
+def load_data():
+    # Mock dataframe setup - replace with your actual data loading method
+    data = {
+        'Gender': ['Female', 'Female', 'Male', 'Male'],
+        'Class': ['Dies', 'Lives', 'Dies', 'Lives'],
+        'Count': [11, 21, 52, 81]
+    }
+    return pd.DataFrame(data)
+
+hcc = load_data()
+
+def plot_class_by_gender():
+    # Assuming hcc dataframe has 'Gender' and 'Class' as columns
+    fig, ax = plt.subplots()
+    for label, df in hcc.groupby('Gender'):
+        df.pivot(index='Gender', columns='Class', values='Count').plot(kind='bar', ax=ax, stacked=True)
+    st.pyplot(fig)
+
+# You can add more specific functions for Symptoms, Smoking, and Alcohol here
+
+### Step 3: Setup Streamlit Widgets to Control What to Display
+st.title('HCC Data Visualization')
+
+option = st.selectbox(
+    'Select the Chart to Display:',
+    ('Class by Gender', 'Class by Symptoms', 'Class by Smoking', 'Class by Alcohol')
+)
+
+if st.button('Show Chart'):
+    if option == 'Class by Gender':
+        plot_class_by_gender()
+    elif option == 'Class by Symptoms':
+        # call your symptoms plotting function here
+        pass
+    elif option == 'Class by Smoking':
+        # call your smoking plotting function here
+        pass
+    elif option == 'Class by Alcohol':
+        # call your alcohol plotting function here
+        pass
